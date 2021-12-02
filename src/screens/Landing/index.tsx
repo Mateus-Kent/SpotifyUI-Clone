@@ -11,19 +11,24 @@ import SpotifyWhite from "../../assets/spotifyWhite.svg";
 export function Landing() {
   return (
     <View style={styles.container}>
-      <SpotifyWhite />
-      <Text>Milhões de musicas à sua escolha</Text>
-      <Text>Grátis no Spotify</Text>
+      <View style={styles.Presentation}>
+        <SpotifyWhite height={50} width={50} />
+        <Text style={styles.textPresentation}>
+          Milhões de musicas à sua escolha. {"\n"}
+          Grátis no Spotify
+        </Text>
+      </View>
+
       <View style={styles.authenticationView}>
-        <GreenButton width={300} marginBottom={2}>
+        <GreenButton width={270} marginBottom={10}>
           Inscreva-se Gratis
         </GreenButton>
 
-        <BlackButton>Continuar com um numero de telefone</BlackButton>
+        <BlackButton marginBottom={10}> Continuar com numero de telefone </BlackButton>
 
-        <BlackButton>Continuar com o Google</BlackButton>
+        <BlackButton marginBottom={10}> Continuar com o Google </BlackButton>
 
-        <BlackButton>Continuar com o facebook</BlackButton>
+        <BlackButton marginBottom={10}> Continuar com o Facebook </BlackButton>
 
         <Text style={styles.enter}>Entrar</Text>
       </View>

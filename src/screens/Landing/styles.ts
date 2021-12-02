@@ -4,21 +4,32 @@ import { theme } from "../../global/styles";
 
 export const styles = StyleSheet.create({
   container: {
-    height: "40%",
-    width: "100%",
+    flex: 1
+  },
+  Presentation:{
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: theme.COLORS.gray,
+    justifyContent: "flex-end",
+    width: '100%',
+    height: '50%',
+    backgroundColor: '#2C2C2C',    
+  },
+  textPresentation: {
+    fontSize: 16,
+    fontFamily: theme.FONTS.title600,
+    color: theme.COLORS.white,
+    textAlign: 'center',
+    marginBottom: 10
   },
   authenticationView: {
-    height: "60%",
+    flex: 3,
+    height: "100%",
     width: "100%",
     alignItems: "center",
-    justifyContent: "center",
     backgroundColor: theme.COLORS.black,
+    paddingTop: 50
   },
   enter: {
-    fontSize: 12,
+    fontSize: 14,
     fontFamily: theme.FONTS.title600,
     color: theme.COLORS.white,
   },
