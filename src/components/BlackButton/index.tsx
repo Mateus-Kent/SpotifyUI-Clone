@@ -1,17 +1,17 @@
 import React from "react";
-import { Text } from 'react-native'
-import { RectButton } from "react-native-gesture-handler";
+import { Text, TouchableOpacity } from "react-native";
 
 import { styles } from "./styles";
 
 type ButtonProps = {
   children: String;
+  marginBottom?: number;
 };
 
-export function BlackButton({ children }: ButtonProps) {
+export function BlackButton({ children, marginBottom }: ButtonProps) {
   return (
-    <RectButton>
+    <TouchableOpacity style={[styles.container, { marginBottom }]}>
       <Text style={styles.textButton}> {children} </Text>
-    </RectButton>
+    </TouchableOpacity>
   );
 }

@@ -9,7 +9,10 @@ export const styles = StyleSheet.create({
     height: 45,
     backgroundColor: theme.COLORS.black,
     borderRadius: 26,
-    width: 300
+    width: 270,
+    borderColor: '#fff',
+    borderWidth: 0.5,
+    borderStyle: 'solid',
   },
   textButton: {
    fontFamily: theme.FONTS.title600,
