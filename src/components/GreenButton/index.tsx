@@ -10,9 +10,17 @@ type ButtonProps = {
   marginBottom?: number;
 };
 
-export function GreenButton({ children, width, marginBottom }: ButtonProps) {
+export function GreenButton({
+  children,
+  width,
+  marginBottom,
+  ...rest
+}: ButtonProps) {
   return (
-    <RectButton style={[styles.container, { width }, {marginBottom}]}  >
+    <RectButton
+      style={[styles.container, { width }, { marginBottom }]}
+      {...rest}
+    >
       <Text style={styles.textButton}> {children} </Text>
     </RectButton>
   );
