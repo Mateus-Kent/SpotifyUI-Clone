@@ -32,15 +32,15 @@ export function RegisterPassword({ navigation }: RegisterProps) {
       </View>
 
       <Form ref={formRef} onSubmit={handleSubmit} style={styles.mail}>
-        <Text style={styles.mailText}>Crie uma senha</Text>
-        <Input name={"email"} marginBottom={10} />
+        <Text style={styles.passwordText}>Crie uma senha</Text>
+        <Input name={"password"} marginBottom={10} />
         <Text style={styles.confirm}>
           sua senha deve ter pelo menos 8 caracteres.
         </Text>
       </Form>
 
       <View style={styles.advanced}>
-        <LoginButton> Avançar</LoginButton>
+        <LoginButton> Entrar</LoginButton>
       </View>
     </View>
   );

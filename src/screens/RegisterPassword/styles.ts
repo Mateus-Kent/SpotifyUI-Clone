@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
   mail: {
     paddingLeft: 25
   },
-  mailText: {
+  passwordText: {
     fontSize: 23,
     fontFamily: theme.FONTS.title700,
     color: theme.COLORS.white,
