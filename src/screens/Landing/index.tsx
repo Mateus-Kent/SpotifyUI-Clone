@@ -30,10 +30,10 @@ export function Landing({ navigation }: LadingProps) {
           width={270}
           marginBottom={10}
         >
-          Inscreva-se Gratis
+          Inscreva-se grátis
         </GreenButton>
 
-        <BlackButton marginBottom={10}> Continuar com numero de telefone </BlackButton>
+        <BlackButton marginBottom={10}> Continuar com número de telefone </BlackButton>
 
         <BlackButton marginBottom={10}> Continuar com o Google </BlackButton>
 
