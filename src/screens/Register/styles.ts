@@ -5,19 +5,19 @@ import { theme } from "../../global/styles";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000'
+    backgroundColor: '#0a0a0a'
   },
   createAccount: {
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
     position: 'relative',
-    paddingTop: 15,
+    paddingTop: 30,
     paddingBottom: 30
   },
   back: {
     position: 'absolute',
-    top: '60%',
+    top: '120%',
     right: '87%',
   },
   createText: {
