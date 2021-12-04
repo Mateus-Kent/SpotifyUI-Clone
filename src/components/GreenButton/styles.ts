@@ -11,8 +11,8 @@ export const styles = StyleSheet.create({
     borderRadius: 26,
   },
   textButton: {
-    fontFamily: theme.FONTS.title600,
-    fontSize: 12,
+    fontFamily: theme.FONTS.title700,
+    fontSize: 13,
     color: theme.COLORS.white,
   },
 });
