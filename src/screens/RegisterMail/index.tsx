@@ -13,7 +13,7 @@ type RegisterProps = {
   navigation: any;
 };
 
-export function Register({ navigation }: RegisterProps) {
+export function RegisterMail({ navigation }: RegisterProps) {
   const formRef = useRef<FormHandles>(null);
 
   function handleSubmit(data: any) {}
