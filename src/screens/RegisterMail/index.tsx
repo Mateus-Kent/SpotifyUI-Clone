@@ -40,7 +40,7 @@ export function RegisterMail({ navigation }: RegisterProps) {
       </Form>
 
       <View style={styles.advanced}>
-        <LoginButton> Avançar</LoginButton>
+        <LoginButton onPress={() => navigation.navigate("RegisterPassword")}> Avançar</LoginButton>
       </View>
     </View>
   );
