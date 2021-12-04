@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     height: 45,
-    backgroundColor: theme.COLORS.black,
+    backgroundColor: '#0a0a0a',
     borderRadius: 26,
     width: 270,
     borderColor: '#fff',
@@ -15,8 +15,8 @@ export const styles = StyleSheet.create({
     borderStyle: 'solid',
   },
   textButton: {
-   fontFamily: theme.FONTS.title600,
-   fontSize: 12,
+   fontFamily: theme.FONTS.title700,
+   fontSize: 13,
    color: theme.COLORS.white,
    marginBottom: 2
   }
