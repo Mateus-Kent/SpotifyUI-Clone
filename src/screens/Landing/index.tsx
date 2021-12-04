@@ -33,13 +33,13 @@ export function Landing({ navigation }: LadingProps) {
           Inscreva-se grátis
         </GreenButton>
 
-        <BlackButton marginBottom={10}> Continuar com número de telefone </BlackButton>
+        <BlackButton height={45} width={270} marginBottom={10}> Continuar com número de telefone </BlackButton>
 
-        <BlackButton marginBottom={10}> Continuar com o Google </BlackButton>
+        <BlackButton height={45} width={270} marginBottom={10}> Continuar com o Google </BlackButton>
 
-        <BlackButton marginBottom={10}> Continuar com o Facebook </BlackButton>
+        <BlackButton height={45} width={270} marginBottom={10}> Continuar com o Facebook </BlackButton>
 
-        <Text style={styles.enter}>Entrar</Text>
+        <Text onPress={() => navigation.navigate("Login")}  style={styles.enter}>Entrar</Text>
       </View>
     </View>
   );
