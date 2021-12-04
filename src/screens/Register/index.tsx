@@ -25,7 +25,7 @@ export function Register({ navigation }: RegisterProps) {
           name="arrowleft"
           size={24}
           color="white"
-          onPress={() => navigation.navigate("Lading")}
+          onPress={() => navigation.navigate("Landing")}
         />
 
         <Text style={styles.createText}>Criar conta</Text>
