@@ -8,7 +8,11 @@ import { BlackButton } from "../../components/BlackButton";
 
 import SpotifyWhite from "../../assets/spotifyWhite.svg";
 
-export function Landing() {
+type LadingProps = {
+  navigation: any;
+};
+
+export function Landing({ navigation }: LadingProps) {
   return (
     <View style={styles.container}>
       <View style={styles.Presentation}>
@@ -20,7 +24,12 @@ export function Landing() {
       </View>
 
       <View style={styles.authenticationView}>
-        <GreenButton width={270} marginBottom={10}>
+        <GreenButton
+          onPress={() => navigation.navigate("Register")}
+          color={"#000"}
+          width={270}
+          marginBottom={10}
+        >
           Inscreva-se Gratis
         </GreenButton>
 
