@@ -25,7 +25,7 @@ export function Landing({ navigation }: LadingProps) {
 
       <View style={styles.authenticationView}>
         <GreenButton
-          onPress={() => navigation.navigate("Register")}
+          onPress={() => navigation.navigate("RegisterMail")}
           color={"#000"}
           width={270}
           marginBottom={10}
