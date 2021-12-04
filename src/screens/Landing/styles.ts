@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
     justifyContent: "flex-end",
     width: '100%',
     height: '50%',
-    backgroundColor: '#2C2C2C',    
+    backgroundColor: '#0a0a0a',    
   },
   textPresentation: {
     fontSize: 16,
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     height: "100%",
     width: "100%",
     alignItems: "center",
-    backgroundColor: theme.COLORS.black,
+    backgroundColor: '#0a0a0a',
     paddingTop: 50
   },
   enter: {
