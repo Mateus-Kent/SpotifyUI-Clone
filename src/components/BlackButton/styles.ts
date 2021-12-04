@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#0a0a0a',
     borderRadius: 26,
     width: 270,
-    borderColor: '#fff',
+    borderColor: theme.COLORS.white,
     borderWidth: 0.5,
     borderStyle: 'solid',
   },
