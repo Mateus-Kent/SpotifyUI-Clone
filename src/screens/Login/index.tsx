@@ -42,7 +42,12 @@ export function Login({ navigation }: RegisterProps) {
       </Form>
 
       <View style={styles.enter}>
-        <LoginButton marginBottom={50}>Entrar</LoginButton>
+        <LoginButton
+          onPress={() => navigation.navigate("Home")}
+          marginBottom={50}
+        >
+          Entrar
+        </LoginButton>
 
         <BlackButton width={150} height={34} fontSize={11}>
           Entrar sem senha

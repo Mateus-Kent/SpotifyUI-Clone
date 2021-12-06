@@ -5,10 +5,12 @@ import { Landing } from "../screens/Landing";
 import { RegisterMail } from "../screens/RegisterMail";
 import { RegisterPassword } from "../screens/RegisterPassword";
 import { Login } from "../screens/Login";
+import { TabRoutes } from "./tab.routes";
 
 const { Navigator, Screen } = createStackNavigator();
 
-export function AllRoutes() {
+
+export function StackRoutes() {
   return (
     <Navigator
       screenOptions={{
@@ -24,7 +26,9 @@ export function AllRoutes() {
 
       <Screen name="RegisterPassword" component={RegisterPassword} />
 
-      <Screen name="Login" component={Login}/>
+      <Screen name="Login" component={Login} />
+
+      <Screen name="Home" component={TabRoutes} />
     </Navigator>
   );
 }
