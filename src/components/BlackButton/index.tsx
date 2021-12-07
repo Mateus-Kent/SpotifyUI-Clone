@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TouchableOpacity } from "react-native";
+import { Text, TouchableOpacity, TouchableOpacityProps } from "react-native";
 
 import { styles } from "./styles";
 
@@ -9,7 +9,7 @@ type ButtonProps = {
   height?: number;
   width?: number;
   fontSize?: number;
-};
+} & TouchableOpacityProps;
 
 export function BlackButton({
   children,
@@ -17,10 +17,12 @@ export function BlackButton({
   height,
   width,
   fontSize,
+  ...rest
 }: ButtonProps) {
   return (
     <TouchableOpacity
       style={[styles.container, { marginBottom }, { height }, { width }]}
+      {...rest}
     >
       <Text style={[styles.textButton, { fontSize }]}> {children} </Text>
     </TouchableOpacity>
