@@ -49,7 +49,12 @@ export function Login({ navigation }: RegisterProps) {
           Entrar
         </LoginButton>
 
-        <BlackButton width={150} height={34} fontSize={11}>
+        <BlackButton
+          onPress={() => navigation.navigate("Home")}
+          width={150}
+          height={34}
+          fontSize={11}
+        >
           Entrar sem senha
         </BlackButton>
       </View>
