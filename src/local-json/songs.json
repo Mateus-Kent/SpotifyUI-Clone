@@ -1,0 +1,83 @@
+{
+ "artists": [
+  {
+   "id": "1",
+   "name": "Bring Me The Horizon",
+   "photo": "https://res.cloudinary.com/dxaxgalyl/image/upload/v1640197595/Spotify/Artists/bringMeTheHorizon_s240rt.jpg"
+  },
+  {
+   "id": "2",
+   "name": "Dance Gavin Dance",
+   "photo": "https://res.cloudinary.com/dxaxgalyl/image/upload/v1640197606/Spotify/Artists/DanceGavinDance_qxa86s.jpg"
+  },
+  {
+   "id": "3",
+   "name": "The Amity Affliction",
+   "photo": "https://res.cloudinary.com/dxaxgalyl/image/upload/v1640197611/Spotify/Artists/TheAmityAfliction_lixvfn.jpg"
+  }
+ ],
+ "songs": [
+  {
+   "id": "1",
+   "name": "Happy Song",
+   "artist": "Bring Me The Horizon",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273736145b97bab8fa92cb6113f"
+  },
+  {
+   "id": "2",
+   "name": "Son of Robot",
+   "artist": "Dance Gavin Dance",
+   "photo": "https://i.scdn.co/image/ab67616d0000b2739a3512eae756613e6f7309df"
+  },
+  {
+   "id": "3",
+   "name": "Don't Lean On Me",
+   "artist": "The Amity Affliction",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273af0d8283eb150711bd6969ab"
+  },
+  {
+   "id": "4",
+   "name": "What's The Meaning of Life",
+   "artist": "Takayan",
+   "photo": "https://lite-images-i.scdn.co/image/ab67616d0000b27355a007a2ca281cb7b7c09689"
+  },
+  {
+   "id": "5",
+   "name": "Godzilla",
+   "artist": "Eminem",
+   "photo": "https://i.scdn.co/image/ab67616d0000b2732f44aec83b20e40f3baef73c"
+  },
+  {
+   "id": "6",
+   "name": "Enemy",
+   "artist": "Imagine Dragons",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273aa597e50829169e6994eb403"
+  },
+  {
+   "id": "7",
+   "name": "Lucid Dreams",
+   "artist": "Juice World",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273f7db43292a6a99b21b51d5b4"
+  }
+ ],
+ "Albums": [
+  {
+   "id": "1",
+   "name": "That's The Spirit",
+   "artist": "Bring Me The Horizon",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273736145b97bab8fa92cb6113f"
+  },
+  {
+   "id": "2",
+   "name": "Artificial Selection",
+   "artist": "Dance Gavin Dance",
+   "photo": "https://i.scdn.co/image/ab67616d0000b2734e58254b9df774aed7401178"
+  },
+  {
+   "id": "3",
+   "name": "Let The Ocean Take Me",
+   "artist": "The Amity Affliction",
+   "photo": "https://i.scdn.co/image/ab67616d0000b273b114fcb563aee544e5664e58"
+  }
+ ]
+}
