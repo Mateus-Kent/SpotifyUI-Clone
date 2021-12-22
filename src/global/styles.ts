@@ -9,6 +9,6 @@ export const theme = {
     black: "#020202",
     white: "#fff",
     grayPrimary: "#2D2E30",
-    graySecondary: "rgba(95, 95, 95, 0.5)"
+    graySecondary: "rgba(95, 95, 95, 0.5)",
   },
 };
