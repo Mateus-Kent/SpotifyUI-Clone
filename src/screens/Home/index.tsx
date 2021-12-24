@@ -1,12 +1,25 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
+
+import { RecommendedContainer } from "../../components/RecommendedContainer";
+
+import { songs } from "../../local-json/songs.json";
 
 import { styles } from "./styles";
 
 export function Home() {
   return (
-    <View style={styles.container}>
-      <Text>Spotify</Text>
-    </View>
+    <ScrollView style={styles.container}>
+      <View style={styles.topBar}>
+        <Ionicons name="settings-outline" size={24} color="white" />
+      </View>
+
+      <View style={styles.presentation}>
+        <Text style={styles.welcomeMessage}>Boa Tarde</Text>
+      </View>
+
+      <RecommendedContainer song={songs} />
+    </ScrollView>
   );
 }
