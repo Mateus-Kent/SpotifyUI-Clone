@@ -8,11 +8,11 @@ import { BlackButton } from "../../components/BlackButton";
 
 import SpotifyWhite from "../../assets/spotifyWhite.svg";
 
-type LadingProps = {
+type LandingProps = {
   navigation: any;
 };
 
-export function Landing({ navigation }: LadingProps) {
+export function Landing({ navigation }: LandingProps) {
   return (
     <View style={styles.container}>
       <View style={styles.Presentation}>
