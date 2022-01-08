@@ -1,20 +1,20 @@
-import React, { useRef } from "react";
-import { View, Text } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
-import { Form } from "@unform/mobile";
-import { FormHandles } from "@unform/core";
+import React, { useRef } from "react"
+import { View, Text } from "react-native"
+import { AntDesign } from "@expo/vector-icons"
+import { Form } from "@unform/mobile"
+import { FormHandles } from "@unform/core"
 
-import { styles } from "./styles";
+import { styles } from "./styles"
 
-import { Input } from "../../components/Input";
-import { LoginButton } from "../../components/LoginButton";
+import { Input } from "../../components/Input"
+import { LoginButton } from "../../components/LoginButton"
 
 type RegisterProps = {
-  navigation: any;
-};
+  navigation: any
+}
 
 export function RegisterMail({ navigation }: RegisterProps) {
-  const formRef = useRef<FormHandles>(null);
+  const formRef = useRef<FormHandles>(null)
 
   function handleSubmit(data: any) {}
   return (
@@ -40,8 +40,10 @@ export function RegisterMail({ navigation }: RegisterProps) {
       </Form>
 
       <View style={styles.advanced}>
-        <LoginButton onPress={() => navigation.navigate("RegisterPassword")}> Avançar</LoginButton>
+        <LoginButton onPress={() => navigation.navigate("RegisterPassword")}>
+          Avançar
+        </LoginButton>
       </View>
     </View>
-  );
+  )
 }

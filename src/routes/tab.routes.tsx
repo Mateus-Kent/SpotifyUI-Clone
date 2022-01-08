@@ -1,16 +1,16 @@
-import React from "react";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Entypo } from "@expo/vector-icons";
-import { Ionicons } from "@expo/vector-icons";
-import { MaterialIcons } from "@expo/vector-icons";
+import React from "react"
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
+import { Entypo } from "@expo/vector-icons"
+import { Ionicons } from "@expo/vector-icons"
+import { MaterialIcons } from "@expo/vector-icons"
 
-import { Home } from "../screens/Home";
-import { Search } from "../screens/Search";
-import { Library } from "../screens/Library";
+import { Home } from "../screens/Home"
+import { Search } from "../screens/Search"
+import { Library } from "../screens/Library"
 
-import { theme } from "../global/styles";
+import { theme } from "../global/styles"
 
-const { Navigator, Screen } = createBottomTabNavigator();
+const { Navigator, Screen } = createBottomTabNavigator()
 
 export function TabRoutes() {
   return (
@@ -49,7 +49,7 @@ export function TabRoutes() {
                 size={size}
                 color={focused ? theme.COLORS.white : "#A7A7A7"}
               />
-            );
+            )
           },
         }}
       />
@@ -65,7 +65,7 @@ export function TabRoutes() {
                 size={size}
                 color={focused ? theme.COLORS.white : "#A7A7A7"}
               />
-            );
+            )
           },
         }}
       />
@@ -81,10 +81,10 @@ export function TabRoutes() {
                 size={size}
                 color={focused ? theme.COLORS.white : "#A7A7A7"}
               />
-            );
+            )
           },
         }}
       />
     </Navigator>
-  );
+  )
 }

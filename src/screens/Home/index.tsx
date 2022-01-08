@@ -1,12 +1,12 @@
-import React from "react";
-import { View, Text, ScrollView } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import React from "react"
+import { View, Text, ScrollView } from "react-native"
+import { Ionicons } from "@expo/vector-icons"
 
-import { RecommendedContainer } from "../../components/RecommendedContainer";
+import { RecommendedContainer } from "../../components/RecommendedContainer"
 
-import { songs } from "../../local-json/songs.json";
+import { songs } from "../../local-json/songs.json"
 
-import { styles } from "./styles";
+import { styles } from "./styles"
 
 export function Home() {
   return (
@@ -21,5 +21,5 @@ export function Home() {
 
       <RecommendedContainer song={songs} />
     </ScrollView>
-  );
+  )
 }

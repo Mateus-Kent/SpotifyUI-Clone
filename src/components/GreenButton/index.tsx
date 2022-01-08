@@ -1,15 +1,15 @@
-import React from "react";
-import { Text } from "react-native";
-import { RectButton, RectButtonProps } from "react-native-gesture-handler";
+import React from "react"
+import { Text } from "react-native"
+import { RectButton, RectButtonProps } from "react-native-gesture-handler"
 
-import { styles } from "./styles";
+import { styles } from "./styles"
 
 type ButtonProps = {
-  children: String;
-  width: number;
-  marginBottom?: number;
-  color?: string;
-} & RectButtonProps;
+  children: String
+  width: number
+  marginBottom?: number
+  color?: string
+} & RectButtonProps
 
 export function GreenButton({
   children,
@@ -25,5 +25,5 @@ export function GreenButton({
     >
       <Text style={[styles.textButton, { color }]}> {children} </Text>
     </RectButton>
-  );
+  )
 }

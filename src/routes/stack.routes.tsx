@@ -1,14 +1,13 @@
-import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
+import React from "react"
+import { createStackNavigator } from "@react-navigation/stack"
 
-import { Landing } from "../screens/Landing";
-import { RegisterMail } from "../screens/RegisterMail";
-import { RegisterPassword } from "../screens/RegisterPassword";
-import { Login } from "../screens/Login";
-import { TabRoutes } from "./tab.routes";
+import { Landing } from "../screens/Landing"
+import { RegisterMail } from "../screens/RegisterMail"
+import { RegisterPassword } from "../screens/RegisterPassword"
+import { Login } from "../screens/Login"
+import { TabRoutes } from "./tab.routes"
 
-const { Navigator, Screen } = createStackNavigator();
-
+const { Navigator, Screen } = createStackNavigator()
 
 export function StackRoutes() {
   return (
@@ -30,5 +29,5 @@ export function StackRoutes() {
 
       <Screen name="Home" component={TabRoutes} />
     </Navigator>
-  );
+  )
 }

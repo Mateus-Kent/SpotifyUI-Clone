@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from "react-native"
 
 export const style = StyleSheet.create({
   styleInput: {
@@ -9,4 +9,4 @@ export const style = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: "#5F5F5F",
   },
-});
+})

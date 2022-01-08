@@ -1,21 +1,21 @@
-import React, { useRef } from "react";
-import { View, Text } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
-import { Form } from "@unform/mobile";
-import { FormHandles } from "@unform/core";
+import React, { useRef } from "react"
+import { View, Text } from "react-native"
+import { AntDesign } from "@expo/vector-icons"
+import { Form } from "@unform/mobile"
+import { FormHandles } from "@unform/core"
 
-import { styles } from "./styles";
+import { styles } from "./styles"
 
-import { Input } from "../../components/Input";
-import { LoginButton } from "../../components/LoginButton";
-import { BlackButton } from "../../components/BlackButton";
+import { Input } from "../../components/Input"
+import { LoginButton } from "../../components/LoginButton"
+import { BlackButton } from "../../components/BlackButton"
 
 type RegisterProps = {
-  navigation: any;
-};
+  navigation: any
+}
 
 export function Login({ navigation }: RegisterProps) {
-  const formRef = useRef<FormHandles>(null);
+  const formRef = useRef<FormHandles>(null)
 
   function handleSubmit(data: any) {}
   return (
@@ -59,5 +59,5 @@ export function Login({ navigation }: RegisterProps) {
         </BlackButton>
       </View>
     </View>
-  );
+  )
 }

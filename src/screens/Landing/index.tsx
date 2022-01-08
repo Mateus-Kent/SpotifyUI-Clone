@@ -1,16 +1,16 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React from "react"
+import { View, Text } from "react-native"
 
-import { styles } from "./styles";
+import { styles } from "./styles"
 
-import { GreenButton } from "../../components/GreenButton";
-import { BlackButton } from "../../components/BlackButton";
+import { GreenButton } from "../../components/GreenButton"
+import { BlackButton } from "../../components/BlackButton"
 
-import SpotifyWhite from "../../assets/spotifyWhite.svg";
+import SpotifyWhite from "../../assets/spotifyWhite.svg"
 
 type LandingProps = {
-  navigation: any;
-};
+  navigation: any
+}
 
 export function Landing({ navigation }: LandingProps) {
   return (
@@ -65,5 +65,5 @@ export function Landing({ navigation }: LandingProps) {
         </Text>
       </View>
     </View>
-  );
+  )
 }

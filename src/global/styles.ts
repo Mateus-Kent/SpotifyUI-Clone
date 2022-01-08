@@ -11,4 +11,4 @@ export const theme = {
     grayPrimary: "#2D2E30",
     graySecondary: "rgba(95, 95, 95, 0.5)",
   },
-};
+}
